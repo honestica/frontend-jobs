@@ -1,10 +1,10 @@
 ### Context
 
-You are working for a company which aims to provide better communication between doctors, and the first product of this company involves sending medical report between practitioner.
+You are working for a company which aims to provide better communication between doctors, and the first product of this company involves sending medical reports between practitioners.
 
-This company wants to build foundation for many apps and easy interoperability, so the backend team built the API with a standard called FHIR (https://www.hl7.org/fhir).
+This company wants to build a base API for many apps with easy interoperability, so the backend team built the API with a standard called FHIR (https://www.hl7.org/fhir).
 
-The goal of this challenge is to build a small webapps with this standard that will upload a document and give some reporting to the user.
+The goal of this challenge is to build a small webapp with this standard that will upload a document and give some reporting to the user.
 
 ### General guidelines 
 
