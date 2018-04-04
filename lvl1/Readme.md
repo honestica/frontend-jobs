@@ -17,5 +17,5 @@ The goal of this challenge is to build a small webapps with this standard that w
 * The goal is to create a small interface to upload a document.
 * When the user picks or selects a document, the document will be sent to the API Server. The FHIR resource corresponding to a file is a `Binary`.  
 
-Example to upload a document: `fetch('https://fhirtest.uhn.ca/baseDstu3/Binary', { method: 'POST', body: 'test' })
+Example to upload a document: `fetch('https://fhirtest.uhn.ca/baseDstu3/Binary', { method: 'POST', body: 'test' })`
 
