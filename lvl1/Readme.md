@@ -1,6 +1,6 @@
 ### Context
 
-You are working for a company which aims to provide better communications between doctors, and the first product of this company involves sending medical report between practitioner.
+You are working for a company which aims to provide better communication between doctors, and the first product of this company involves sending medical report between practitioner.
 
 This company wants to build foundation for many apps and easy interoperability, so the backend team built the API with a standard called FHIR (https://www.hl7.org/fhir).
 
