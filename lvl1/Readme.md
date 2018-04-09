@@ -13,9 +13,7 @@ The goal of this challenge is to build a small webapp with this standard that wi
 
 ### Level 1
 
-* The backend team built the API server on https://fhirtest.uhn.ca/baseDstu3/ (documentation on https://fhirtest.uhn.ca)
-* The goal is to create a small interface to upload a document.
-* When the user picks or selects a document, the document will be sent to the API Server. The FHIR resource corresponding to a file is a `Binary`.  
+The goal is to create a small interface to drop a document.
 
-Example to upload a document: `fetch('https://fhirtest.uhn.ca/baseDstu3/Binary', { method: 'POST', body: 'test' })`
-
+* A drop zone should be present on the page
+* When the user drop a document, the webpage should display the filename.

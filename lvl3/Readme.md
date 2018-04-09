@@ -1,8 +1,6 @@
 ### Level 3
 
-We now have some reporting and we are ready to start the next feature. 
-The final goal is to "watch" a directory and upload every file in this directory.
-Normal webpages are not allowed to "watch" directory, so we have to build a desktop app to access the system, with node-webkit (https://nwjs.io/).
+When the upload is ready, you want to display some reporting information for the user.
 
-* Setup node-webkit
-* Integrate your app with node-webkit
+* After every upload, find the total number of `Binary` in the API (look https://www.hl7.org/fhir/http.html and https://fhirtest.uhn.ca/resource?serverId=home_21&pretty=true&resource=Binary)
+* Display the information on the webpage nicely
