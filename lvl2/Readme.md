@@ -10,3 +10,4 @@ The backend team built the API server at https://fhirtest.uhn.ca/baseDstu3/ (doc
 
 Example to upload a document: `fetch('https://fhirtest.uhn.ca/baseDstu3/Binary', { method: 'POST', body: myFile })`
 
+When you are done -> [Next Level](https://github.com/honestica/frontend-jobs/tree/master/lvl3)
