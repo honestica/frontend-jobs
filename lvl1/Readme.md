@@ -24,3 +24,5 @@ The goal is to create a small interface to drop a document.
 
 * A drop zone should be present on the page
 * When the user drop a document, the webpage should display the filename.
+
+When you are done -> [Next Level](https://github.com/honestica/frontend-jobs/tree/master/lvl2)
