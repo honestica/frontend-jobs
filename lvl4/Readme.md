@@ -6,3 +6,5 @@ Normal webpages are not allowed to "watch" directory, so we have to build a desk
 
 * Setup node-webkit
 * Integrate your app with node-webkit
+
+When you are done -> [Next Level](https://github.com/honestica/frontend-jobs/tree/master/lvl5)
