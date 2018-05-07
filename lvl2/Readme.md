@@ -2,7 +2,10 @@
 ### Level 2
 
 The goal is to upload the dropped document to the FHIR API.
-The backend team built the API server at https://fhirtest.uhn.ca/baseDstu3/ (documentation at https://fhirtest.uhn.ca). You can use this server
+The base URL for the API server is https://fhirtest.uhn.ca/baseDstu3/.
+It means that every FHIR resources is accessible at this URL (for instance: `https://fhirtest.uhn.ca/baseDstu3/Binany` for `Binary` or `https://fhirtest.uhn.ca/baseDstu3/Practitioner` for `Practitioner`).
+You can use this server for this webapp (it is completely open)
+
 
 * When the user drops document, the document will be sent to the API Server. The FHIR resource corresponding to a file is a `Binary`.  
 

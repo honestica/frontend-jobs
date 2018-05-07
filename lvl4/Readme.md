@@ -6,5 +6,6 @@ Normal webpages are not allowed to "watch" directory, so we have to build a desk
 
 * Setup node-webkit
 * Integrate your app with node-webkit
+* Do not make the `watch` function yet, this is the next level
 
 When you are done -> [Next Level](https://github.com/honestica/frontend-jobs/tree/master/lvl5)
