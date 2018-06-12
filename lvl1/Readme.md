@@ -10,7 +10,7 @@ There are 5 levels:
 * Lvl 1: build a dropzone
 * Lvl 2: send the file to a fake API
 * Lvl 3: add some reporting information for the user
-* Lvl 4: integrate with node-webkit
+* Lvl 4: integrate with a framework for desktop applications
 * Lvl 5: watch a directory on your machine. Any files dropped to this directory should be uploaded.
 
 ### General guidelines 
