@@ -1,0 +1,53 @@
+.App {
+  margin: auto;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #ff6742;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  top: 0px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+  margin-right: 20px;
+}
+
+/* PAGE LAYOUT*/
+
+.content {
+  padding: 60px;
+  display: flex;
+}
+
+.panel {
+  flex-grow: 1;
+}
+
+.dragdrop {
+  background-color: #fff;
+  padding: 40px;
+  height: 300px;
+  text-align: center;
+  border: dotted #ff6742 3px;
+  border-radius: 10px;
+}
+
+.document-list {
+  border: 1px solid #FF6742;
+  border-radius: 10px;
+  padding: 16px;
+  width: 90%;
+  min-height: 100px;
+}

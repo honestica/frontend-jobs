@@ -1,0 +1,30 @@
+{
+  "name": "lifen-frontend-jobs",
+  "version": "0.1.0",
+  "private": false,
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "homepage": "./",
+  "main": "public/electron.js",
+  "scripts": {
+    "start:electron": "wait-on http://localhost:3000 && electron .",
+    "start:server": "BROWSER=none yarn react-scripts start",
+    "start": "concurrently \"yarn start:server\" \"yarn start:electron\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0",
+    "eslint-utils": "^1.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "electron": "19.0.9",
+    "wait-on": "^3.3.0"
+  }
+}
