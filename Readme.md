@@ -14,6 +14,7 @@ You will find the boilerplate code for a new React app inside the `/src` folder.
 Here are some guidelines:
 - you can use external libs if/when necessary
 - feel free to make changes to the existing code if you need
+- don't hesitate to change the UI to fit your needs
 
 
 ## Setup
