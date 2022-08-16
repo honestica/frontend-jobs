@@ -1,0 +1,32 @@
+{
+  "name": "lifen-frontend-jobs",
+  "version": "1.0.0",
+  "private": false,
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "scripts": {
+    "start": "yarn react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "eslint-utils": "1.4.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "3.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
